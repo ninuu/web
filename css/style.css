@@ -7,6 +7,36 @@
 	width:1170px;
 	margin: 0 auto;
 }
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+.clear{
+	clear: both;
+}
+.title{
+	padding: 30px 0;
+	font-family: 'Roboto';
+	font-size: 24px;
+	text-transform: uppercase; 
+}
+.title a{
+	text-transform: lowercase;
+}
+.title a:hover{
+	color:#EE4036;
+}
+.white-color{
+	color:#fff;
+}
+.blue-color{
+	color:#3D58A6;
+}
+.black-color{
+	color:#000;
+}
 /*base classes*/
 
 /*header*/
@@ -34,13 +64,14 @@
 }
 .social-icon li:last-child{
 	border:0;
+	padding-right: 0;
+	margin-right:0;
 }
 .social-icon li{
 	border-right: 1px solid #3D58A6;
 	padding-right:15px;
 	margin-right:15px;
 }
-
 .social-icon li a img{
 	height:30px;
 }
@@ -55,3 +86,108 @@
 	width: 100%;
 }
 /*banner conteiner*/
+
+/*videos*/
+.video-wrapper{
+	background-color: #363E97;
+	padding-bottom:90px;
+}
+.video-wrapper .video{
+	width:570px;
+	background-color: #fff;
+	text-align: center;	
+}
+.video-wrapper .video video{
+	width:100%;
+}
+/*videos*/
+
+/*news*/
+.news-wrapper{
+	background-color: #BDCCD4;
+	padding-bottom:90px;
+}
+.news-wrapper article{
+	width:270px;
+	margin-right: 30px;
+	background-color: #E6E6E6;	
+}
+.news-wrapper article img{
+	width:100%;
+}
+.news-wrapper article h1{
+	line-height: 60px;
+	font-family: 'Roboto';
+	font-size: 22px;
+	color:#333333;
+	padding-left: 15px;
+	width:100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	box-sizing: border-box;
+
+}
+.news-wrapper article:nth-child(4){
+	margin-right: 0;
+}
+
+/*news*/
+/*feature*/
+.feature-wrapper{
+	background-color: #E6E6E6;
+	padding-bottom: 90px;
+}
+.feature-element{
+	width:570px;
+	height: 220px;
+	background-color: #F2F2F2;
+	padding-bottom:40px;
+}
+.feature-element.right{
+	margin-left: 30px;
+}
+
+.feature-wrapper h2{
+	color:#3D58A6;
+	font-family: 'Roboto';
+	text-transform: uppercase;
+	font-size: 22px;
+	padding-top: 15px;
+	padding-left: 15px;
+
+}
+.content-block {
+	padding-top:15px;
+}
+.content-block img{
+	/*width: 100px;*/
+	height:130px;
+    padding-left: 40px;
+	margin-right: 55px;
+}
+.content-block p{
+	width:340px;
+	font-family: 'Roboto';
+	font-size:20px;
+	vertical-align: top;
+	line-height:26px;
+	padding-right: 30px;
+	margin-left: 0px;
+}
+.content-block a{
+	text-transform: lowercase;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+.content-block a:hover{
+	color:#3D58A6;
+}
+
+/*feature*/
+
+/*footer*/
+.footer{
+	padding: 25px 0;
+}
+/*footer*/
